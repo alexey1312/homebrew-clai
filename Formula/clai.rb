@@ -1,19 +1,19 @@
 class Clai < Formula
   desc "LLM-powered CLI help assistant"
   homepage "https://github.com/alexey1312/clai"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
     url "https://github.com/alexey1312/clai/releases/download/v#{version}/clai-macos.zip"
-    sha256 "c6500968c39c92f615db92e8151b063d63359bc11dab957fa3348e2c0075130e"
+    sha256 "1d243c7d99784b0567fa8d803cf62dc73b64cec07f5f2bd8a93213a054dc4381"
 
     depends_on macos: :sonoma
   end
 
   on_linux do
     url "https://github.com/alexey1312/clai/releases/download/v#{version}/clai-linux-x64.tar.gz"
-    sha256 "cdfa58963b11d31263bab3bd400454475d0bcf04c37408d5263ba67ea4292dca"
+    sha256 "8ceb566363d8090b48038b26a15a07fe5e878c20e44063200c81efef63722651"
   end
 
   def install

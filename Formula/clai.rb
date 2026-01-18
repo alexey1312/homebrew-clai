@@ -20,7 +20,7 @@ class Clai < Formula
     bin.install "clai"
     # Install MLX Metal library for local inference on Apple Silicon
     bin.install "mlx.metallib" if File.exist?("mlx.metallib")
-    generate_completions_from_executable(bin/"clai", "completions")
+    generate_completions_from_executable(bin/"clai", "completions", "generate")
   end
 
   test do
